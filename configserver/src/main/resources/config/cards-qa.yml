@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+cards:
+  message: "Welcome to MyBank cards related QA APIs "
+  contactDetails:
+    name: "John Doe - QA lead"
+    email: "john@mybank.com"
+  onCallSupport:
+    - (555) 555-1234
+    - (555) 523-1345

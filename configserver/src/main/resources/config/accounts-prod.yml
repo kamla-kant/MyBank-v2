@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to MyBank accounts related PROD APIs "
+  contactDetails:
+    name: "John Doe - PROD lead"
+    email: "john@mybank.com"
+  onCallSupport:
+    - (555) 555-1234
+    - (555) 523-1345

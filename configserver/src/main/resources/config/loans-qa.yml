@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+loans:
+  message: "Welcome to MyBank loans related QA APIs "
+  contactDetails:
+    name: "John Doe - QA lead"
+    email: "john@mybank.com"
+  onCallSupport:
+    - (555) 555-1234
+    - (555) 523-1345
