@@ -27,3 +27,7 @@ info:
     name: "gatewayserver"
     description: "MyBank Gateway Server"
     version: "1.0.0"
+
+logging:
+  level:
+    com.example.gatewayserver: DEBUG

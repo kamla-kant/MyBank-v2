@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "baedc67c-3719-413e-b79d-658733f6235f",
+		"_postman_id": "8b4257c2-4444-4a79-9e7c-8a5ffb92ce13",
 		"name": "Microservices",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "1599575"
+		"_exporter_id": "25144291"
 	},
 	"item": [
 		{
@@ -71,7 +71,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"name\": \"Madan Mohan\",\n    \"email\": \"tutor@eazybytes\",\n    \"mobileNumber\": \"4354437687\",\n    \"accountsDto\": {\n        \"accountNumber\": 1105557729,\n        \"accountType\": \"Savings\",\n        \"branchAddress\": \"123 Main Street, New York\"\n    }\n}",
+							"raw": "{\n    \"name\": \"Madan Mohan\",\n    \"email\": \"tutor@eazybytes\",\n    \"mobileNumber\": \"4354437687\",\n    \"accountsDto\": {\n        \"accountNumber\": 1055057335,\n        \"accountType\": \"Current\",\n        \"branchAddress\": \"123 Main Street, New York\"\n    }\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -969,7 +969,7 @@
 					"response": []
 				},
 				{
-					"name": "eazybank/accounts/api/create",
+					"name": "mybank/accounts/api/create",
 					"request": {
 						"method": "POST",
 						"header": [],
@@ -983,14 +983,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8072/eazybank/accounts/api/create",
+							"raw": "http://localhost:8072/mybank/accounts/api/create",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8072",
 							"path": [
-								"eazybank",
+								"mybank",
 								"accounts",
 								"api",
 								"create"
@@ -1000,7 +1000,7 @@
 					"response": []
 				},
 				{
-					"name": "eazybank/cards/api/create",
+					"name": "mybank/cards/api/create",
 					"request": {
 						"method": "POST",
 						"header": [],
@@ -1014,14 +1014,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8072/eazybank/cards/api/create?mobileNumber=4354437687",
+							"raw": "http://localhost:8072/mybank/cards/api/create?mobileNumber=4354437687",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8072",
 							"path": [
-								"eazybank",
+								"mybank",
 								"cards",
 								"api",
 								"create"
@@ -1037,19 +1037,19 @@
 					"response": []
 				},
 				{
-					"name": "eazybank/loans/api/create",
+					"name": "mybank/loans/api/create",
 					"request": {
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8072/eazybank/loans/api/create?mobileNumber=4354437687",
+							"raw": "http://localhost:8072/mybank/loans/api/create?mobileNumber=4354437687",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8072",
 							"path": [
-								"eazybank",
+								"mybank",
 								"loans",
 								"api",
 								"create"
@@ -1070,14 +1070,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8072/eazybank/accounts/api/fetchCustomerDetails?mobileNumber=4354437687",
+							"raw": "http://localhost:8072/mybank/accounts/api/fetchCustomerDetails?mobileNumber=4354437687",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8072",
 							"path": [
-								"eazybank",
+								"mybank",
 								"accounts",
 								"api",
 								"fetchCustomerDetails"
@@ -1093,19 +1093,19 @@
 					"response": []
 				},
 				{
-					"name": "eazybank/accounts/api/contact-info",
+					"name": "mybank/accounts/api/contact-info",
 					"request": {
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8072/eazybank/accounts/api/contact-info",
+							"raw": "http://localhost:8072/mybank/accounts/api/contact-info",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8072",
 							"path": [
-								"eazybank",
+								"mybank",
 								"accounts",
 								"api",
 								"contact-info"
@@ -1115,19 +1115,19 @@
 					"response": []
 				},
 				{
-					"name": "eazybank/loans/api/contact-info",
+					"name": "mybank/loans/api/contact-info",
 					"request": {
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8072/eazybank/loans/api/contact-info",
+							"raw": "http://localhost:8072/mybank/loans/api/contact-info",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8072",
 							"path": [
-								"eazybank",
+								"mybank",
 								"loans",
 								"api",
 								"contact-info"
@@ -1137,19 +1137,19 @@
 					"response": []
 				},
 				{
-					"name": "eazybank/accounts/api/build-info",
+					"name": "mybank/accounts/api/build-info",
 					"request": {
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8072/eazybank/accounts/api/build-info",
+							"raw": "http://localhost:8072/mybank/accounts/api/build-info",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8072",
 							"path": [
-								"eazybank",
+								"mybank",
 								"accounts",
 								"api",
 								"build-info"
@@ -1159,19 +1159,19 @@
 					"response": []
 				},
 				{
-					"name": "eazybank/accounts/api/java-version",
+					"name": "mybank/accounts/api/java-version",
 					"request": {
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8072/eazybank/accounts/api/java-version",
+							"raw": "http://localhost:8072/mybank/accounts/api/java-version",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8072",
 							"path": [
-								"eazybank",
+								"mybank",
 								"accounts",
 								"api",
 								"java-version"
@@ -1244,14 +1244,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8072/eazybank/accounts/api/contact-info",
+							"raw": "http://localhost:8072/mybank/accounts/api/contact-info",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8072",
 							"path": [
-								"eazybank",
+								"mybank",
 								"accounts",
 								"api",
 								"contact-info"
@@ -1266,14 +1266,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8072/eazybank/cards/api/java-version",
+							"raw": "http://localhost:8072/mybank/cards/api/java-version",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8072",
 							"path": [
-								"eazybank",
+								"mybank",
 								"cards",
 								"api",
 								"java-version"
@@ -1288,14 +1288,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8072/eazybank/loans/api/build-info",
+							"raw": "http://localhost:8072/mybank/loans/api/build-info",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8072",
 							"path": [
-								"eazybank",
+								"mybank",
 								"loans",
 								"api",
 								"build-info"
@@ -1319,14 +1319,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8072/eazybank/accounts/api/create",
+							"raw": "http://localhost:8072/mybank/accounts/api/create",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8072",
 							"path": [
-								"eazybank",
+								"mybank",
 								"accounts",
 								"api",
 								"create"
@@ -1395,14 +1395,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8072/eazybank/accounts/api/create",
+							"raw": "http://localhost:8072/mybank/accounts/api/create",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8072",
 							"path": [
-								"eazybank",
+								"mybank",
 								"accounts",
 								"api",
 								"create"
@@ -1471,14 +1471,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8072/eazybank/cards/api/create?mobileNumber=4354437688",
+							"raw": "http://localhost:8072/mybank/cards/api/create?mobileNumber=4354437688",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8072",
 							"path": [
-								"eazybank",
+								"mybank",
 								"cards",
 								"api",
 								"create"
@@ -1544,14 +1544,14 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8072/eazybank/loans/api/create?mobileNumber=4354437688",
+							"raw": "http://localhost:8072/mybank/loans/api/create?mobileNumber=4354437688",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8072",
 							"path": [
-								"eazybank",
+								"mybank",
 								"loans",
 								"api",
 								"create"
@@ -1651,14 +1651,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8072/eazybank/accounts/api/create",
+							"raw": "http://localhost:8072/mybank/accounts/api/create",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8072",
 							"path": [
-								"eazybank",
+								"mybank",
 								"accounts",
 								"api",
 								"create"
@@ -1752,14 +1752,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8072/eazybank/cards/api/create?mobileNumber=4354437687",
+							"raw": "http://localhost:8072/mybank/cards/api/create?mobileNumber=4354437687",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8072",
 							"path": [
-								"eazybank",
+								"mybank",
 								"cards",
 								"api",
 								"create"
@@ -1850,14 +1850,14 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8072/eazybank/loans/api/create?mobileNumber=4354437687",
+							"raw": "http://localhost:8072/mybank/loans/api/create?mobileNumber=4354437687",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8072",
 							"path": [
-								"eazybank",
+								"mybank",
 								"loans",
 								"api",
 								"create"
@@ -1878,14 +1878,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8072/eazybank/accounts/api/fetchCustomerDetails?mobileNumber=4354437688",
+							"raw": "http://localhost:8072/mybank/accounts/api/fetchCustomerDetails?mobileNumber=4354437688",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8072",
 							"path": [
-								"eazybank",
+								"mybank",
 								"accounts",
 								"api",
 								"fetchCustomerDetails"
